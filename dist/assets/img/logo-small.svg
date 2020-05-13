@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26"
+   height="26"
+   viewBox="0 0 26 26"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo-small.svg">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview18"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.2818182"
+     inkscape:cx="55"
+     inkscape:cy="13"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <style
+     id="style4">
+	.style0{
+		fill:	none;
+		fill-rule:	evenodd;
+	}
+	.style1{
+		fill:	#4E3D1E;
+	}
+</style>
+  <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title6">logo</title>
+  <desc
+     id="desc8">Created with Sketch.</desc>
+  <defs
+     id="defs10" />
+  <g
+     id="Page-1"
+     sketch:type="MSPage"
+     class="style0"
+     style="fill:none;fill-rule:evenodd">
+    <g
+       id="Blog-Post"
+       sketch:type="MSArtboardGroup"
+       transform="translate(-50,-24)"
+       class="style1"
+       style="fill:#4e3d1e">
+      <g
+         id="Header-Copy"
+         sketch:type="MSLayerGroup"
+         transform="translate(50,11)">
+        <g
+           id="logo"
+           sketch:type="MSShapeGroup">
+          <path
+             d="m 23.2,19.5 c -0.1,-0.3 -0.3,-0.5 -0.4,-0.7 -1.9,-2.6 -4.9,-4.7 -9,-4.9 -0.3,0 -0.5,-0.1 -0.8,-0.1 -0.3,0 -0.5,0.1 -0.8,0.1 -3.5,0.2 -6.3,1.8 -8.2,3.9 -1.1,1.3 -2,2.8 -2.5,4.4 -0.4,1 -0.6,2.1 -0.6,3 0.6,2.7 4.5,9 12.1,9 7.6,0 11.6,-6.3 12.1,-9 0,-1.8 -0.6,-3.9 -1.9,-5.7 l 0,0 z m 1.9,7.8 C 24.4,33.4 19.3,38.2 13,38.2 6.7,38.2 1.6,33.4 0.9,27.3 3,31.9 7.6,35 13,35 c 5.4,0 10,-3.1 12.1,-7.7 l 0,0 z M 13,39 C 20.2,39 26,33.2 26,26 26,18.8 20.2,13 13,13 5.8,13 0,18.8 0,26 0,33.2 5.8,39 13,39 Z M 5.5,22.2 c 0,-0.2 0.1,-0.4 0.3,-0.5 0,0 0.7,-0.4 2.3,-0.4 1.5,0 2.4,0.4 2.4,0.4 0.2,0.1 0.3,0.3 0.2,0.5 -0.1,0.2 -0.3,0.3 -0.5,0.3 0,0 -0.7,-0.3 -2.1,-0.3 C 6.6,22.2 6,22.5 6,22.5 5.8,22.6 5.6,22.4 5.5,22.2 Z m 9.9,0 c -0.1,-0.2 0,-0.4 0.2,-0.5 0,0 0.8,-0.4 2.3,-0.4 1.6,0 2.5,0.4 2.5,0.4 0.2,0.1 0.3,0.3 0.2,0.5 -0.1,0.2 -0.3,0.3 -0.5,0.3 0,0 -0.7,-0.3 -2.2,-0.3 -1.4,0 -2,0.3 -2,0.3 -0.2,0.1 -0.4,-0.1 -0.5,-0.3 z"
+             id="Mask-Copy-38"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     style="fill:#4e3d1e;fill-rule:evenodd"
+     id="g4150"
+     sketch:type="MSArtboardGroup"
+     transform="translate(-50,-24)"
+     class="style1">
+    <g
+       id="g4152"
+       sketch:type="MSLayerGroup"
+       transform="translate(50,11)">
+      <g
+         id="g4154"
+         sketch:type="MSShapeGroup">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 23.2,19.5 c -0.1,-0.3 -0.3,-0.5 -0.4,-0.7 -1.9,-2.6 -4.9,-4.7 -9,-4.9 -0.3,0 -0.5,-0.1 -0.8,-0.1 -0.3,0 -0.5,0.1 -0.8,0.1 -3.5,0.2 -6.3,1.8 -8.2,3.9 -1.1,1.3 -2,2.8 -2.5,4.4 -0.4,1 -0.6,2.1 -0.6,3 0.6,2.7 4.5,9 12.1,9 7.6,0 11.6,-6.3 12.1,-9 0,-1.8 -0.6,-3.9 -1.9,-5.7 l 0,0 z m 1.9,7.8 C 24.4,33.4 19.3,38.2 13,38.2 6.7,38.2 1.6,33.4 0.9,27.3 3,31.9 7.6,35 13,35 c 5.4,0 10,-3.1 12.1,-7.7 l 0,0 z M 13,39 C 20.2,39 26,33.2 26,26 26,18.8 20.2,13 13,13 5.8,13 0,18.8 0,26 0,33.2 5.8,39 13,39 Z M 5.5,22.2 c 0,-0.2 0.1,-0.4 0.3,-0.5 0,0 0.7,-0.4 2.3,-0.4 1.5,0 2.4,0.4 2.4,0.4 0.2,0.1 0.3,0.3 0.2,0.5 -0.1,0.2 -0.3,0.3 -0.5,0.3 0,0 -0.7,-0.3 -2.1,-0.3 C 6.6,22.2 6,22.5 6,22.5 5.8,22.6 5.6,22.4 5.5,22.2 Z m 9.9,0 c -0.1,-0.2 0,-0.4 0.2,-0.5 0,0 0.8,-0.4 2.3,-0.4 1.6,0 2.5,0.4 2.5,0.4 0.2,0.1 0.3,0.3 0.2,0.5 -0.1,0.2 -0.3,0.3 -0.5,0.3 0,0 -0.7,-0.3 -2.2,-0.3 -1.4,0 -2,0.3 -2,0.3 -0.2,0.1 -0.4,-0.1 -0.5,-0.3 z"
+           id="path4156" />
+      </g>
+    </g>
+  </g>
+</svg>
