@@ -9,9 +9,40 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <nav class="header__nav container">
+            <div class="header__nav__logo">
+                <a href="#"><img src="dist/assets/img/logo.svg" alt="logo"></a>
+            </div>
+            <div class="header__nav__menu">
+                <ul class="header__nav__menu__list">
+                    <li class="header__nav__menu__list__item">
+                        <a href="#">Solutions<i class="fas fa-sort-down"></i></a>
+                        <ul class="header__nav__menu__list__item__dropdown display__none">
+                            <li><a href="">Feedback</a></li>
+                            <li><a href="">Surveys</a></li>
+                            <li><a href="">Reviews</a></li>
+                            <li><a href="">Praise</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__nav__menu__list__item"><a href="#">Pricing</a></li>
+                    <li class="header__nav__menu__list__item"><a href="#">Blog</a></li>
+                    <li class="header__nav__menu__list__item"><a href="#">Sign in</a></li>
+                    <li class="header__nav__menu__list__item">
+                        <a href="#">
+                            <img src="dist/assets/img/google-logo.svg" alt="google logo">
+                            <span>Sign up</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <script id="template" type="text/x-handlebars-template">
-        
+
     </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js'></script>
     <script src="dist/assets/scripts/main.js"></script>
 </body>
 </html>

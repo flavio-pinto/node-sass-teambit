@@ -10953,9 +10953,19 @@ return jQuery;
 /*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.* */
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+/**
+ * Ricreare la landing: https://teambit.io/
+ * Utilizzo di SASS, utilizzando tutte le best practice imparate: nesting, &, variabili, file parziali e iniziamo a giocare con i mixin
+ * Utilizzare fontawesome per le icone. Per ora non includiamolo con npm ma usiamo il metodo di inserimento classico (ad esempio cdn). Stessa cosa se vogliamo inserire jQuery.
+ * Le immagini della landing le trovate allegate sotto.
+ */
+// Import nmp JQuery
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
-  console.log('JS Ready!');
+  console.log('JS Ready!'); //Init Handlebars
+
+  var source = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#template__results').html();
+  var template = Handlebars.compile(source);
 });
 })();
 

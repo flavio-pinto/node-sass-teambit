@@ -1,0 +1,63 @@
+//Reset margin, padding and box sizing
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+//Utilities
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.display__none {
+    display: none;
+}
+
+//Variables
+$color__main: #58402c;
+$color__secondary: #30488f;
+$color__secondary__hover: #263972;
+$background__secondary: #ffe7d2;
+
+//Mixins
+@mixin display__flex__common__rules {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin section__title($align: center) {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: $align;
+}
+
+@mixin buttons__rules ($background: #30488f, $color: #fff, $border__color: transparent, $padding: 20px) {
+    display: flex;
+    align-items: center;
+    background: $background;
+    color: $color;
+    border: 1px solid $border__color;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px $padding;
+}
+
+//Commn styles
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: $color__main;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
