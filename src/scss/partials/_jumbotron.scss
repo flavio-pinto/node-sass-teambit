@@ -1,0 +1,58 @@
+.jumbotron {
+    @include display__flex__common__rules;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 460px;
+    &__left {
+        width: 50%;
+        &__title {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        & p {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+        &__signup {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            &__txt {
+                margin: 0 20px;
+            }
+            &__google a,
+            &__slack a {
+                @include buttons__rules ( #30488f, #fff, transparent, 20px);
+                display: flex;
+                align-items: center;
+                & img {
+                    width: 18px;
+                    margin-right: 5px;
+                }
+            }
+            &__google a:hover,
+            &__slack a:hover {
+                background-color: $color__secondary__hover;
+            }
+            &__email {
+                margin-top: 20px;
+                width: 100%;
+                & i {
+                    margin-left: 5px;
+                }
+            }
+            &__email:hover{
+                color: $color__secondary__hover
+            }
+        }
+    }
+    &__right {
+        width: 50%;
+        height: 100%;
+        background-image: url('../../../dist/assets/img/illustration-main.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

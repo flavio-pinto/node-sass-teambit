@@ -85,6 +85,8 @@ a {
   border-radius: 5px;
   padding: 10px 10px;
   transition: background-color 200ms;
+  display: flex;
+  align-items: center;
 }
 
 .header__nav__menu__list__item:last-child a:hover {
@@ -108,6 +110,89 @@ a {
 .header__nav__menu__list i {
   margin-left: 5px;
   transform: translateY(-2px);
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 460px;
+}
+
+.jumbotron__left {
+  width: 50%;
+}
+
+.jumbotron__left__title {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.jumbotron__left p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.jumbotron__left__signup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.jumbotron__left__signup__txt {
+  margin: 0 20px;
+}
+
+.jumbotron__left__signup__google a,
+.jumbotron__left__signup__slack a {
+  display: flex;
+  align-items: center;
+  background: #30488f;
+  color: #fff;
+  border: 1px solid transparent;
+  height: 35px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 200ms;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron__left__signup__google a img,
+.jumbotron__left__signup__slack a img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.jumbotron__left__signup__google a:hover,
+.jumbotron__left__signup__slack a:hover {
+  background-color: #263972;
+}
+
+.jumbotron__left__signup__email {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.jumbotron__left__signup__email i {
+  margin-left: 5px;
+}
+
+.jumbotron__left__signup__email:hover {
+  color: #263972;
+}
+
+.jumbotron__right {
+  width: 50%;
+  height: 100%;
+  background-image: url(/images/illustration-main.jpg?b02bfc04b821942b18310d564a1fc8c5);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 

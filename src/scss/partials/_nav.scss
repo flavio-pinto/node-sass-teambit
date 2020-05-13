@@ -33,7 +33,8 @@
             &__item:last-child {
                 & a {
                     @include buttons__rules(#fff, $color__secondary__hover, $color__secondary, 10px);
-                    transition: background-color 200ms;
+                    display: flex;
+                    align-items: center;
                 }
                 & a:hover {
                     background-color: $color__secondary;

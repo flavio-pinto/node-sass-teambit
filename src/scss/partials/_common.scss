@@ -20,6 +20,7 @@ $color__main: #58402c;
 $color__secondary: #30488f;
 $color__secondary__hover: #263972;
 $background__secondary: #ffe7d2;
+$font__size__paragraphs: 22px;
 
 //Mixins
 @mixin display__flex__common__rules {
@@ -44,6 +45,7 @@ $background__secondary: #ffe7d2;
     height: 35px;
     border-radius: 5px;
     padding: 10px $padding;
+    transition: background-color 200ms;
 }
 
 //Commn styles
