@@ -1,4 +1,4 @@
-.why__teambit {
+.why-teambit {
     background: $background__secondary;
     &__block {
         text-align: center;
@@ -23,8 +23,12 @@
             }
         }
         border-bottom: 1px solid $color__main;
-        &:last-child {
+        &:last-of-type {
             border-bottom: none;
         }
+    }
+    &__how-it-works {
+        @include section__title();
+        padding-bottom: 80px;
     }
 }

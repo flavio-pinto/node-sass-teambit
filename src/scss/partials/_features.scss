@@ -46,6 +46,7 @@
     }
 }
 
+//Inversione immagine e descrizione feature nei blocchi dispari
 .features__block:nth-child(even) {
     & .features__block__img {
         order: 1;

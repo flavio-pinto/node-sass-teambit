@@ -166,10 +166,10 @@ a {
   background-position: center;
 }
 
-.why__teambit {
+.why-teambit {
   background: #ffe7d2;
 }
-.why__teambit__block {
+.why-teambit__block {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -180,27 +180,33 @@ a {
   padding: 100px 145px;
   border-bottom: 1px solid #58402c;
 }
-.why__teambit__block__title {
+.why-teambit__block__title {
   font-size: 30px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 75px;
 }
-.why__teambit__block__box {
+.why-teambit__block__box {
   width: calc(100% / 3);
 }
-.why__teambit__block__box img {
+.why-teambit__block__box img {
   height: 105px;
   max-width: 100%;
 }
-.why__teambit__block__box:last-child {
+.why-teambit__block__box:last-child {
   margin-top: 100px;
 }
-.why__teambit__block__box:last-child img {
+.why-teambit__block__box:last-child img {
   height: 320px;
 }
-.why__teambit__block:last-child {
+.why-teambit__block:last-of-type {
   border-bottom: none;
+}
+.why-teambit__how-it-works {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 80px;
 }
 
 .features {

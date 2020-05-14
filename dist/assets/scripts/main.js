@@ -10964,7 +10964,7 @@ return jQuery;
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   console.log('JS Ready!'); //Init Handlebars Why Teambit Template
 
-  var source = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#template__why__teambit').html();
+  var source = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#template__why-teambit').html();
   var template = Handlebars.compile(source); //Array con oggetti contenenti info del blocco
 
   var whyTeambitBlocksInfos = [{
@@ -10990,12 +10990,12 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   for (var i = 0; i < whyTeambitBlocksInfos.length; i++) {
     var infoBlock = whyTeambitBlocksInfos[i];
     var addBlock = template(infoBlock);
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.why__teambit').append(addBlock);
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.why-teambit').prepend(addBlock);
   } //Init Handlebars Features Block
 
 
   var source = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#template__features__block').html();
-  var template = Handlebars.compile(source); //Array immagini features
+  var template = Handlebars.compile(source); //Array features
 
   var features = jquery__WEBPACK_IMPORTED_MODULE_0___default()('.features');
   var arrayFeatures = [{
@@ -11018,7 +11018,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     title: 'Praise to help teammates feel valued',
     paragraph: 'Make it a habit to recognize and praise people who do great work.',
     img: 'dist/assets/img/recognition.jpg'
-  }];
+  }]; //Ciclo append features
 
   for (var i = 0; i < arrayFeatures.length; i++) {
     var feature = arrayFeatures[i];

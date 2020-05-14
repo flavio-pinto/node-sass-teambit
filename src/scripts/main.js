@@ -12,7 +12,7 @@ $(document).ready(function () {
     console.log('JS Ready!');
 
     //Init Handlebars Why Teambit Template
-    var source = $('#template__why__teambit').html();
+    var source = $('#template__why-teambit').html();
     var template = Handlebars.compile(source);
 
     //Array con oggetti contenenti info del blocco
@@ -43,14 +43,14 @@ $(document).ready(function () {
     for(var i = 0; i < whyTeambitBlocksInfos.length; i++) {
         var infoBlock = whyTeambitBlocksInfos[i];
         var addBlock = template(infoBlock);
-        $('.why__teambit').append(addBlock);
+        $('.why-teambit').prepend(addBlock);
     }
 
     //Init Handlebars Features Block
     var source = $('#template__features__block').html();
     var template = Handlebars.compile(source);
 
-    //Array immagini features
+    //Array features
     var features = $('.features');
     var arrayFeatures = [
         {
@@ -79,7 +79,7 @@ $(document).ready(function () {
         }
     ];
 
-
+    //Ciclo append features
     for(var i = 0; i < arrayFeatures.length; i++){
         var feature = arrayFeatures[i];
         var output = template(feature);
