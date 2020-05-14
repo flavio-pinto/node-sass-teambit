@@ -1,0 +1,33 @@
+.footer {
+    @include container__rules($width: 1170px, $margin: 0 auto);
+    @include display__flex__common__rules($align__items: flex-start);
+    padding: 100px 0 50px;
+}
+
+.footer__left {
+    @include display__flex__common__rules($justify__content: flex-start, $flex__wrap: nowrap);
+    width: 340px;
+    & img {
+        width: 150px;
+        margin-right: 20px;
+    }
+    &__description {
+        font-weight: 700;
+    }
+}
+
+.footer__links {
+    @include display__flex__common__rules($justify__content: flex-start, $align__items: flex-start, $flex__wrap: wrap);
+    &__list {
+        margin-left: 52px;
+    }
+    &__list__title {
+        font-size: 18px;
+    }
+    &__list li {
+        font-size: 14px;
+        &:hover {
+            color: $color__secondary__hover;
+        }
+    }
+}

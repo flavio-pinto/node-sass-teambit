@@ -368,3 +368,47 @@ a {
 .signup__email:hover {
   color: #263972;
 }
+
+.footer {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 100px 0 50px;
+}
+
+.footer__left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 340px;
+}
+.footer__left img {
+  width: 150px;
+  margin-right: 20px;
+}
+.footer__left__description {
+  font-weight: 700;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer__links__list {
+  margin-left: 52px;
+}
+.footer__links__list__title {
+  font-size: 18px;
+}
+.footer__links__list li {
+  font-size: 14px;
+}
+.footer__links__list li:hover {
+  color: #263972;
+}
