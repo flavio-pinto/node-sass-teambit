@@ -11024,7 +11024,17 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     var feature = arrayFeatures[i];
     var output = template(feature);
     features.append(output);
-  }
+  } //Mouseenter dropdown
+
+
+  var dropdownNav = jquery__WEBPACK_IMPORTED_MODULE_0___default()('.w-dropdown');
+  var dropdownMenu = jquery__WEBPACK_IMPORTED_MODULE_0___default()('.header__nav__menu__list__item__dropdown');
+  dropdownNav.mouseenter(function () {
+    dropdownMenu.show();
+  });
+  dropdownNav.mouseleave(function () {
+    dropdownMenu.hide();
+  });
 });
 })();
 

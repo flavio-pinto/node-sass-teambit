@@ -18,7 +18,7 @@
             }
             &__item__dropdown {
                 position: absolute;
-                bottom: -760%;
+                bottom: -141px;
                 background: #fff;
                 border-radius: 5px;
                 width: 120px;
@@ -58,4 +58,8 @@
             }
         }
     }
+}
+
+.header__nav__menu__list__item__dropdown {
+    display: none;
 }

@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-.display__none {
-  display: none;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #58402c;
@@ -52,7 +48,7 @@ a {
 }
 .header__nav__menu__list__item__dropdown {
   position: absolute;
-  bottom: -760%;
+  bottom: -141px;
   background: #fff;
   border-radius: 5px;
   width: 120px;
@@ -95,6 +91,10 @@ a {
 .header__nav__menu__list i {
   margin-left: 5px;
   transform: translateY(-2px);
+}
+
+.header__nav__menu__list__item__dropdown {
+  display: none;
 }
 
 .jumbotron {

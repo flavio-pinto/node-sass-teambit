@@ -85,5 +85,16 @@ $(document).ready(function () {
         var output = template(feature);
         features.append(output);
     }
+
+    //Mouseenter dropdown
+    var dropdownNav = $('.w-dropdown');
+    var dropdownMenu = $('.header__nav__menu__list__item__dropdown');
+
+    dropdownNav.mouseenter(function() {
+        dropdownMenu.show();
+    });
+    dropdownNav.mouseleave(function() {
+        dropdownMenu.hide();
+    });
 });
 
