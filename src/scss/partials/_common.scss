@@ -6,11 +6,6 @@
 }
 
 //Utilities
-.container {
-    width: 1170px;
-    margin: 0 auto;
-}
-
 .display__none {
     display: none;
 }
@@ -23,15 +18,20 @@ $background__secondary: #ffe7d2;
 $font__size__paragraphs: 22px;
 
 //Mixins
-@mixin display__flex__common__rules {
+@mixin container__rules($width: 1170px, $margin: 0 auto) {
+    width: $width;
+    margin: $margin;
+}
+
+@mixin display__flex__common__rules($justify__content: space-between, $align__items: center, $flex__wrap: wrap) {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: $justify__content;
+    align-items: $align__items;
+    flex-wrap: $flex__wrap;
 }
 
 @mixin section__title($align: center) {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     text-align: $align;
 }

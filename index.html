@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__nav container">
+        <nav class="header__nav">
             <div class="header__nav__logo">
                 <a href="#"><img src="dist/assets/img/logo.svg" alt="logo"></a>
             </div>
@@ -40,7 +40,7 @@
     </header>
 
     <main class="page__content">
-        <section class="jumbotron container">
+        <section class="jumbotron">
             <div class="jumbotron__left">
                 <h1 class="jumbotron__left__title">Understand, recognize and develop your people</h1>
                 <p>Teambit helps teams create a high performing culture with regular feedback.</p>
@@ -53,10 +53,30 @@
             </div>
             <div class="jumbotron__right"></div>
         </section>
+        <section class="why__teambit">
+            
+        </section>
     </main>
 
-    <script id="template" type="text/x-handlebars-template">
-
+    <script id="template__why__teambit" type="text/x-handlebars-template">
+        <div class="why__teambit__block">
+            <h2 class="why__teambit__block__title">{{title}}</h2>
+            <div class="why__teambit__block__box">
+                <img src="{{img1}}" alt="">
+                <p>{{{text1}}}</p>
+            </div>
+            <div class="why__teambit__block__box">
+                <img src="{{img2}}" alt="">
+                <p>{{{text2}}}</p>
+            </div>
+            <div class="why__teambit__block__box">
+                <img src="{{img3}}" alt="">
+                <p>{{{text3}}}</p>
+            </div>
+            <div class="why__teambit__block__box">
+                <img src="{{img4}}" alt="">
+            </div>
+        </div>
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js'></script>
     <script src="dist/assets/scripts/main.js"></script>

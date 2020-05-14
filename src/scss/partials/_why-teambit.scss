@@ -1,0 +1,27 @@
+.why__teambit {
+    background: $background__secondary;
+    &__block {
+        text-align: center;
+        @include display__flex__common__rules($justify__content: center);
+        @include container__rules();
+        padding: 100px 145px;
+        &__title {
+            @include section__title();
+            margin-bottom: 75px;
+        }
+        &__box {
+            width: calc(100% / 3);
+            & img {
+                height: 105px;
+                max-width: 100%;
+            }
+        }
+        &__box:last-child {
+            margin-top: 100px;
+            & img {
+                height: 320px;
+            }
+        }
+        border-bottom: 1px solid $color__main;
+    }
+}

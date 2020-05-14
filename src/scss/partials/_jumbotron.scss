@@ -1,5 +1,6 @@
 .jumbotron {
     @include display__flex__common__rules;
+    @include container__rules();
     margin-top: 100px;
     margin-bottom: 100px;
     height: 460px;
@@ -14,10 +15,7 @@
             margin-bottom: 30px;
         }
         &__signup {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-wrap: wrap;
+            @include display__flex__common__rules($justify__content: flex-start);
             &__txt {
                 margin: 0 20px;
             }
