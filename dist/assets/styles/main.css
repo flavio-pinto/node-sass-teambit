@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -272,4 +273,98 @@ a {
   font-size: 30px;
   font-weight: 700;
   text-align: left;
+}
+
+.get-started {
+  background: #ffe7d2;
+  padding: 100px 0 50px;
+}
+.get-started__title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.get-started__title img {
+  margin-left: 10px;
+}
+.get-started__experience {
+  margin: 0 auto 40px;
+  width: 600px;
+  background-color: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+.get-started__experience__quote {
+  position: relative;
+}
+.get-started__experience__quote::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  position: absolute;
+  top: -54px;
+  left: -49px;
+  font-size: 45px;
+  color: #30488f;
+}
+.get-started__experience__quote__authors {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 35px;
+  margin-top: 20px;
+}
+.get-started__experience__quote__authors img {
+  max-height: 100%;
+}
+.get-started__experience__quote__authors__names {
+  margin-left: 10px;
+}
+.get-started__experience__quote__authors__names span {
+  display: block;
+  font-size: 12px;
+}
+.get-started__experience__quote__authors__names span:first-child {
+  font-size: 14px;
+  color: #30488f;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+}
+.signup__txt {
+  margin: 0 20px;
+}
+.signup__google a, .signup__slack a {
+  display: flex;
+  align-items: center;
+  background: #30488f;
+  color: #fff;
+  border: 1px solid transparent;
+  height: 35px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 200ms;
+}
+.signup__google a img, .signup__slack a img {
+  width: 18px;
+  margin-right: 5px;
+}
+.signup__google a:hover, .signup__slack a:hover {
+  background-color: #263972;
+}
+.signup__email {
+  margin-top: 15px;
+}
+.signup__email i {
+  margin-left: 5px;
+}
+.signup__email:hover {
+  color: #263972;
 }

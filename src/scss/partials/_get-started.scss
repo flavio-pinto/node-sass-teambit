@@ -1,0 +1,80 @@
+.get-started {
+    background: $background__secondary;
+    padding: 100px 0 50px;
+    &__title {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+        & img {
+            margin-left: 10px;
+        }
+    }
+    &__experience {
+        margin: 0 auto 40px;
+        width: 600px;
+        background-color: #fff;
+        padding: 30px 50px;
+        border-radius: 10px;
+        &__quote {
+            position: relative;
+            &::after {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                content: "\f10d";
+                position: absolute;
+                top: -54px;
+                left: -49px;
+                font-size: 45px;
+                color: $color__secondary;
+            }
+            &__authors {
+                @include display__flex__common__rules($justify__content: flex-start);
+                height: 35px;
+                margin-top: 20px;
+                & img {
+                    max-height: 100%;
+                }
+                &__names {
+                    margin-left: 10px;
+                    & span {
+                        display: block;
+                        font-size: 12px;
+                        &:first-child {
+                            font-size: 14px;
+                            color: $color__secondary;
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+
+.signup {
+    @include display__flex__common__rules($justify__content: center);
+    @include container__rules($width: 500px);
+    &__txt {
+        margin: 0 20px;
+    }
+    &__google a,
+    &__slack a {
+        @include buttons__rules ( #30488f, #fff, transparent, 20px);
+        & img {
+            width: 18px;
+            margin-right: 5px;
+        }
+    }
+    &__google a:hover,
+    &__slack a:hover {
+        background-color: $color__secondary__hover;
+    }
+    &__email {
+        margin-top: 15px;
+        & i {
+            margin-left: 5px;
+        }
+        &:hover {
+            color: $color__secondary__hover;
+        }
+    }
+}
