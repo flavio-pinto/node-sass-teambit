@@ -23,5 +23,8 @@
             }
         }
         border-bottom: 1px solid $color__main;
+        &:last-child {
+            border-bottom: none;
+        }
     }
 }

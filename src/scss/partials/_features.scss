@@ -1,0 +1,60 @@
+.features {
+    padding: 80px 0 30px;
+}
+
+.features__block {
+    @include display__flex__common__rules($justify__content: center);
+    margin-bottom: 100px;
+    &__img,
+    &__description {
+        display: inline-block;
+        padding: 20px;
+    }
+    &__img {
+        width: 55%;
+        text-align: right;
+        & img {
+            width: 80%;
+        }
+    }
+    &__description {
+        width: 30%;
+        &__title {
+            @include section__title(left);
+        }
+        &__title{
+            margin-bottom: 30px;
+        }
+        &__paragraph {
+            font-size: $font__size__paragraphs;
+            margin-bottom: 40px;
+        }
+        &__picbox {
+            text-align: center;
+            & img {
+                width: 270px;
+            }
+        }
+        & a {
+            display: block;
+            font-size: 20px;
+            margin-bottom: 20px;
+            &:hover {
+                color: $color__secondary__hover;
+            }
+        }
+    }
+}
+
+.features__block:nth-child(even) {
+    & .features__block__img {
+        order: 1;
+        text-align: left;
+    }
+    & .features__block__description {
+        order: 0;
+        &__title {
+            @include section__title(left);
+        }
+    }
+}

@@ -9,6 +9,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header class="header">
         <nav class="header__nav">
             <div class="header__nav__logo">
@@ -39,6 +40,7 @@
         </nav>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main class="page__content">
         <section class="jumbotron">
             <div class="jumbotron__left">
@@ -56,9 +58,14 @@
         <section class="why__teambit">
             
         </section>
+        <section class="features">
+            
+        </section>
     </main>
 
+    <!-- TEMPLATES HANDLEBARS -->
     <script id="template__why__teambit" type="text/x-handlebars-template">
+        <!-- Template Why Teambit -->
         <div class="why__teambit__block">
             <h2 class="why__teambit__block__title">{{title}}</h2>
             <div class="why__teambit__block__box">
@@ -78,6 +85,21 @@
             </div>
         </div>
     </script>
+    <!-- Template Feature Block-->
+    <script id="template__features__block" type="text/x-handlebars-template">
+        <div class="features__block">
+            <div class="features__block__img">
+                <div class="features__block__img__picbox"><img src="{{imgBig}}" alt=""></div>
+            </div>
+            <div class="features__block__description">
+                <h2 class="features__block__description__title">{{title}}</h2>
+                <p class="features__block__description__paragraph">{{paragraph}}</p>
+                <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                <div class="features__block__description__picbox"><img src="{{img}}" alt=""></div>
+            </div>
+        </div>
+    </script>
+    
     <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js'></script>
     <script src="dist/assets/scripts/main.js"></script>
 </body>

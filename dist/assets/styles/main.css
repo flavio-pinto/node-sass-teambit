@@ -199,3 +199,71 @@ a {
 .why__teambit__block__box:last-child img {
   height: 320px;
 }
+.why__teambit__block:last-child {
+  border-bottom: none;
+}
+
+.features {
+  padding: 80px 0 30px;
+}
+
+.features__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.features__block__img, .features__block__description {
+  display: inline-block;
+  padding: 20px;
+}
+.features__block__img {
+  width: 55%;
+  text-align: right;
+}
+.features__block__img img {
+  width: 80%;
+}
+.features__block__description {
+  width: 30%;
+}
+.features__block__description__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+.features__block__description__title {
+  margin-bottom: 30px;
+}
+.features__block__description__paragraph {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+.features__block__description__picbox {
+  text-align: center;
+}
+.features__block__description__picbox img {
+  width: 270px;
+}
+.features__block__description a {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.features__block__description a:hover {
+  color: #263972;
+}
+
+.features__block:nth-child(even) .features__block__img {
+  order: 1;
+  text-align: left;
+}
+.features__block:nth-child(even) .features__block__description {
+  order: 0;
+}
+.features__block:nth-child(even) .features__block__description__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}

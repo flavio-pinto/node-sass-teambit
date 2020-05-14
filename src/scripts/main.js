@@ -11,7 +11,7 @@ import $ from 'jquery';
 $(document).ready(function () {
     console.log('JS Ready!');
 
-    //Init Handlebars
+    //Init Handlebars Why Teambit Template
     var source = $('#template__why__teambit').html();
     var template = Handlebars.compile(source);
 
@@ -45,4 +45,45 @@ $(document).ready(function () {
         var addBlock = template(infoBlock);
         $('.why__teambit').append(addBlock);
     }
+
+    //Init Handlebars Features Block
+    var source = $('#template__features__block').html();
+    var template = Handlebars.compile(source);
+
+    //Array immagini features
+    var features = $('.features');
+    var arrayFeatures = [
+        {
+            imgBig: 'dist/assets/img/employee-feedback.jpg',
+            title: 'Feedback to help teammates improve',
+            paragraph: 'Empower your teammates to know in real time what they are doing well and what they need to improve.',
+            img: 'dist/assets/img/communication.jpg'
+        },
+        {
+            imgBig: 'dist/assets/img/employee-survey.jpg',
+            title: 'Surveys to help the team be better',
+            paragraph: 'Get real-time insights into your team with research-backed, lightweight and regular surveys.',
+            img: 'dist/assets/img/insights.jpg'
+        },
+        {
+            imgBig: 'dist/assets/img/performance-review.jpg',
+            title: 'Reviews to help teammates get a fair evaluation',
+            paragraph: 'Make better compensation and promotion decisions with objective and quick performance reviews.',
+            img: 'dist/assets/img/review.jpg'
+        },
+        {
+            imgBig: 'dist/assets/img/employee-recognition.jpg',
+            title: 'Praise to help teammates feel valued',
+            paragraph: 'Make it a habit to recognize and praise people who do great work.',
+            img: 'dist/assets/img/recognition.jpg'
+        }
+    ];
+
+
+    for(var i = 0; i < arrayFeatures.length; i++){
+        var feature = arrayFeatures[i];
+        var output = template(feature);
+        features.append(output);
+    }
 });
+
